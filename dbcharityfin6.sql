@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 16, 2023 at 11:31 AM
+-- Generation Time: Feb 28, 2023 at 06:39 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.0.15
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `dbcharityfin6`
+-- Database: `charityfinance7`
 --
 
 -- --------------------------------------------------------
@@ -112,7 +112,55 @@ INSERT INTO `checking` (`id`, `caseid`, `employment`, `NoofMales`, `NoofFemales`
 (6, '2', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 20000, 'DONE', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Validated', '', '', 'No', 'No', '', '', 'No', 'No', 'No', '2023-01-05 07:45:07'),
 (7, '1', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 0, '', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Validated', '', '', 'No', 'No', '', '', 'No', 'No', 'No', '2023-01-05 12:12:23'),
 (8, '4', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes', 'No', 'No', 'No', '', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', '', 50000, 'I checked this case', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'Validated', '', '', 'No', 'Yes', '', '', 'No', 'Yes', 'No', '2023-01-06 05:55:46'),
-(9, '2', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 5000, 'testing', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Validated', '', '', 'No', 'No', '', '', 'No', 'No', 'No', '2023-01-16 10:14:44');
+(9, '2', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 5000, 'testing', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Validated', '', '', 'No', 'No', '', '', 'No', 'No', 'No', '2023-01-16 10:14:44'),
+(10, '6', 'Yes', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'Yes', '', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', '', 50000, 'This is valid case', 'Yes', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Validated', '', '', 'No', 'No', '', '', 'No', 'Yes', 'No', '2023-02-17 11:17:49'),
+(11, '8', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'Yes', '', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', '', 40000, 'I checked on this, this is a valid case', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Validated', '', '', 'No', 'No', '', '', 'Yes', 'No', 'No', '2023-02-21 11:37:21'),
+(12, '9', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 0, '', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Validated', '', '', 'No', 'No', '', '', 'No', 'No', 'No', '2023-02-22 05:42:32'),
+(13, '3', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 5000, 'This is anothier testing', 'No', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Validated', '', '', 'No', 'No', '', '', 'No', 'No', 'No', '2023-02-22 11:19:37'),
+(14, '4', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 5000, 'zubair', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Validated', '', '', 'No', 'No', '', '', 'No', 'No', 'No', '2023-02-22 11:20:10'),
+(15, '10', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 60000, 'I checked this and verified', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Validated', '', '', 'Yes', 'Yes', '', '', 'No', 'No', 'Yes', '2023-02-22 12:19:39'),
+(16, '11', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 50000, 'This is field officer remarks', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Validated', '', '', 'No', 'No', '', '', 'Yes', 'Yes', 'No', '2023-02-23 11:52:59'),
+(17, '12', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', '', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', '', 40000, 'This is field officer remarks', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'Validated', '', '', 'No', 'No', '', '', 'Yes', 'Yes', 'No', '2023-02-23 12:54:31');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `remarks`
+--
+
+CREATE TABLE `remarks` (
+  `remarksid` int(11) NOT NULL,
+  `caseid` int(11) DEFAULT NULL,
+  `staffid` int(11) DEFAULT NULL,
+  `username` varchar(50) DEFAULT NULL,
+  `date` timestamp NULL DEFAULT NULL,
+  `action` varchar(50) DEFAULT NULL,
+  `remarks` varchar(200) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `remarks`
+--
+
+INSERT INTO `remarks` (`remarksid`, `caseid`, `staffid`, `username`, `date`, `action`, `remarks`) VALUES
+(1, 9, 4, 'Aamir Ejaz', '2023-02-20 06:39:15', 'Approved', 'asdasdasd'),
+(2, 9, 5, 'Shoaib Shaikh', '2023-02-20 08:10:39', 'Rejected', 'I am rejecting this'),
+(3, 9, 6, 'kashif lawai', '2023-02-22 09:36:42', 'Approved', 'this si testing'),
+(4, 8, 6, 'kashif lawai', '2023-02-22 09:37:25', 'Rejected', 'I am testing this '),
+(7, 1, 6, 'kashif lawai', '2023-02-22 09:40:37', 'Approved', 'This si tesign'),
+(8, 8, 4, 'Aamir Ejaz', '2023-02-22 09:41:26', 'Approved', 'Testing from Aamir Aijaz'),
+(9, 8, 5, 'Shoaib Shaikh', '2023-02-22 09:41:54', 'Approved', 'Testing from Shoaib shaikh'),
+(10, 9, 7, 'Aslam Shaikh', '2023-02-22 10:00:39', 'Approved', 'This is testing'),
+(11, 2, 4, 'Aamir Ejaz', '2023-02-22 10:23:57', 'Approved', 'This is another testing'),
+(12, 10, 7, 'Aslam Shaikh', '2023-02-22 12:21:03', 'Approved', 'These are aslam sahab remarks'),
+(13, 10, 5, 'Shoaib Shaikh', '2023-02-22 12:21:59', 'Rejected', 'These are shoaib shaikh remarks'),
+(14, 10, 6, 'kashif lawai', '2023-02-22 12:22:42', 'Approved', 'These are Kashif LAwai remarks'),
+(15, 10, 4, 'Aamir Ejaz', '2023-02-22 12:23:15', 'Approved', 'These are Amir ejaz Remarks'),
+(16, 11, 7, 'Aslam Shaikh', '2023-02-23 11:53:40', 'Approved', 'This is Aslam Shb Remarks'),
+(17, 12, 4, 'Aamir Ejaz', '2023-02-23 12:56:06', 'Approved', 'This is amir Aijaz remarks'),
+(18, 12, 7, 'Aslam Shaikh', '2023-02-23 12:57:56', 'Approved', 'This is Aslam Shb Remarks'),
+(19, 12, 5, 'Shoaib Shaikh', '2023-02-23 12:58:13', 'Approved', 'asdasd'),
+(20, 12, 6, 'kashif lawai', '2023-02-23 12:58:32', 'Rejected', 'asdasd');
 
 -- --------------------------------------------------------
 
@@ -188,7 +236,10 @@ INSERT INTO `tblfinance` (`id`, `ChequeNumber`, `ChequeAmount`, `ChequeRecName`,
 (12, '', '', '', '', 1, 1, '2022-12-31 06:16:56', '', 'Cash', 6),
 (13, '', '', '', '', 1, 1, '2022-12-31 06:17:25', '', 'Cash', 6),
 (14, '4524554551', '20000', 'Rabeet Siddiqui', '4524528545285', 2, 1, '2023-01-05 07:48:12', 'Bank Al Habib', 'Cheque', 0),
-(15, '', '', '', '', 4, 1, '2023-01-06 05:56:53', 'Bank Al Habib', 'Cash', 0);
+(15, '', '', '', '', 4, 1, '2023-01-06 05:56:53', 'Bank Al Habib', 'Cash', 0),
+(16, '', '', '', '', 6, 1, '2023-02-17 11:18:41', '', 'Cash', 60000),
+(17, '564564', '50000', 'Salman', '4220114810127', 10, 1, '2023-02-22 12:25:19', 'Bank Al Habib', 'Cheque', 0),
+(18, '', '', '', '', 12, 1, '2023-02-23 13:01:13', '', 'Cash', 5000);
 
 -- --------------------------------------------------------
 
@@ -235,7 +286,7 @@ CREATE TABLE `tblmainform` (
   `Muslim` varchar(3) DEFAULT NULL,
   `Syed` varchar(3) DEFAULT NULL,
   `AgaKani` varchar(10) DEFAULT NULL,
-  `ZakatEvaluation` varchar(10) DEFAULT NULL,
+  `ZakatEvaluation` varchar(15) DEFAULT NULL,
   `AmountApplied` int(11) DEFAULT NULL,
   `FOAmount` int(11) DEFAULT NULL,
   `FORemarks2` longtext DEFAULT NULL,
@@ -273,11 +324,18 @@ CREATE TABLE `tblmainform` (
 --
 
 INSERT INTO `tblmainform` (`caseid`, `employment`, `NoofMales`, `NoofFemales`, `NoofDependents`, `NoofPersonEarning`, `FamilyIncome`, `MonthlyRation`, `MonthlyHealthCare`, `MonthlyEducation`, `OtherExpenses`, `TotalExpenses`, `MonthlySirplusdeficit`, `CashBank`, `GoldSilver`, `ProvisionalFund`, `PaidCommittee`, `SecurityDeposit`, `LoanGiven`, `OtherCurrency`, `TradeAssets`, `UnnecessaryFlats`, `ExtraMobilePhones`, `ExtraVehicles`, `ExtraLivestocks`, `TotalCountableAssets`, `RentPayable`, `SecurityDepositPayable`, `PayableAmountCommittee`, `UtilityBillsPayable`, `LoanPayable`, `TtlDductLiabilities`, `TotalDeductableLiabiliities`, `NetCoutableAssets`, `CurrentZakatEvaluation`, `Muslim`, `Syed`, `AgaKani`, `ZakatEvaluation`, `AmountApplied`, `FOAmount`, `FORemarks2`, `ExecutiveRelationship`, `ReferenceName`, `RefferedBy`, `Intension`, `Experience`, `Capability`, `Training`, `OtherRemarks`, `DOC`, `casetype`, `caseDescription`, `Name`, `Fathersname`, `cnic`, `contact`, `email`, `status`, `panelremarks`, `panelamount`, `netsalary`, `address`, `formid`, `FOremarks`, `NOB`, `NOBdesc`, `city`, `otp`) VALUES
-(1, 'UnEmployee', 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 5, 5, 1, 1, 'Yes', 'No', 'No', 'Eligible', 0, 99, '55', 'Yes', 'Sir Rabeet', 'Sir Rabeet', 'Will', 'Intermediate', 'Expert', 'Training', 'I need training too', '2023-01-05 12:12:23', 'Charity', 'I want to start business', 'Salman Agha', 'Agha Asfandyar Khan', '4220114810127', '03347360763', 'aghasalmankhan95@gmail.com', 'Panel', 'Done', 20000, '500000', 'Karachi', 0, '55', 'Others', 'Digital Agency', 'Karachi', ''),
-(2, 'Employee', 1, 4, 4, 1, 300000, 10000, 5000, 10000, 45000, 70000, -230000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'Yes', 'Yes', 'No', 'Not Eligib', 5000, 5000, 'testing', 'Yes', 'Salman Agha', 'Salman Agha', 'will', 'Expert', 'Beginner', 'Want to Train me', 'Good', '2023-01-16 10:14:44', 'Charity', 'I want to startup ', 'Rabeet Siddiqui', 'Rashid Siddiqui', '4585455545416', '03162278487', 'rabeet.siddiqui22@gmail.com', 'Panel', 'Done', 20000, '20000', 'H#222 Orangi Town Karachi', 0, '', 'Business1', '', 'Karachi', ''),
-(3, '', 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 5, 5, 5, 5, 'Yes', 'No', 'No', 'Eligible', 0, 0, '', 'Yes', 'Rabeet', 'Rabeet', 'Will', 'Expert', 'Expert', 'Training', 'Other Remarks', '2023-01-06 05:53:26', 'Charity', 'This is case Desciprtion', 'Salman Agha', 'Agha Asfandyar Khan', '4220114810127', '03347360763', 'aghasalmankhan95@gmail.com', 'New', '', 0, '500000', 'Johar', 0, '', 'Others', 'Testing', 'Karachi', ''),
-(4, 'Employee', 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 5, 5, 5, 5, 'Yes', 'No', 'No', 'Eligible', 50000, 0, '', 'Yes', 'Rabeet', 'Rabeet', 'Will', 'Expert', 'Expert', 'Training', 'Other Remarks', '2023-01-06 05:56:53', 'Charity', 'This is case Desciprtion', 'Salman Agha', 'Agha Asfandyar Khan', '4220114810127', '03347360763', 'aghasalmankhan95@gmail.com', 'Reimbursed', 'This is panel remarks', 66, '500000', 'Johar', 0, '', 'Others', 'Testing', 'Karachi', ''),
-(5, '', 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 5, 5, 5, 5, 'Yes', 'No', 'No', 'Eligible', 0, 0, '', 'Yes', 'Rabeet', 'Rabeet', 'Will', 'Expert', 'Expert', 'Training', 'This is other veryfying remarks', '2023-01-06 05:59:25', 'Zakat', 'This is case desc', 'Saad', 'Agha', '4220114810127', '03347360763', 'syedmuhammadsaad@live.com', 'New', '', 0, '500000', 'Johar', 0, '', '', '', 'Karachi', '');
+(1, 'UnEmployee', 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 5, 5, 1, 1, 'Yes', 'No', 'No', 'Eligible', 0, 99, '55', 'Yes', 'Sir Rabeet', 'Sir Rabeet', 'Will', 'Intermediate', 'Expert', 'Training', 'I need training too', '2023-02-22 06:45:55', 'Charity', 'I want to start business', 'Salman Agha', 'Agha Asfandyar Khan', '4220114810127', '03347360763', 'aghasalmankhan95@gmail.com', 'Submitted', 'Done', 20000, '500000', 'Karachi', 0, '55', 'Others', 'Digital Agency', 'Karachi', ''),
+(2, 'Employee', 1, 4, 4, 1, 300000, 10000, 5000, 10000, 45000, 70000, -230000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'Yes', 'Yes', 'No', 'Not Eligib', 5000, 5000, 'testing', 'Yes', 'Salman Agha', 'Salman Agha', 'will', 'Expert', 'Beginner', 'Want to Train me', 'Good', '2023-02-22 06:45:55', 'Charity', 'I want to startup ', 'Rabeet Siddiqui', 'Rashid Siddiqui', '4585455545416', '03162278487', 'rabeet.siddiqui22@gmail.com', 'Submitted', 'Done', 20000, '20000', 'H#222 Orangi Town Karachi', 0, '', 'Business1', '', 'Karachi', ''),
+(3, '', 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 5, 5, 5, 5, 'Yes', 'No', 'No', 'Eligible', 8000, 5000, 'This is anothier testing', 'Yes', 'Rabeet', 'Rabeet', 'Will', 'Expert', 'Expert', 'Training', 'Other Remarks', '2023-02-22 11:19:37', 'Charity', 'This is case Desciprtion', 'Salman Agha', 'Agha Asfandyar Khan', '4220114810127', '03347360763', 'aghasalmankhan95@gmail.com', 'Submitted', '', 0, '500000', 'Johar', 0, '', 'Others', 'Testing', 'Karachi', ''),
+(4, 'Employee', 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 5, 5, 5, 5, 'Yes', 'No', 'No', 'Eligible', 80000, 5000, 'zubair', 'Yes', 'Rabeet', 'Rabeet', 'Will', 'Expert', 'Expert', 'Training', 'Other Remarks', '2023-02-22 11:20:10', 'Charity', 'This is case Desciprtion', 'Salman Agha', 'Agha Asfandyar Khan', '4220114810127', '03347360763', 'aghasalmankhan95@gmail.com', 'Submitted', 'This is panel remarks', 66, '500000', 'Johar', 0, '', 'Others', 'Testing', 'Karachi', ''),
+(5, '', 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 5, 5, 5, 5, 'Yes', 'No', 'No', 'Eligible', 0, 0, '', 'Yes', 'Rabeet', 'Rabeet', 'Will', 'Expert', 'Expert', 'Training', 'This is other veryfying remarks', '2023-01-06 05:59:25', 'Zakat', 'This is case desc', 'Saad', 'Agha', '4220114810127', '03347360763', 'syedmuhammadsaad@live.com', 'New', '', 0, '500000', 'Johar', 0, '', '', '', 'Karachi', ''),
+(6, 'UnEmployee', 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 5, 5, 1, 1, 'Yes', 'No', 'No', 'Eligible', 90000, 50000, 'This is valid case', 'No', '', 'salman', 'yes', 'Expert', 'Intermediate', 'yes', 'test', '2023-02-17 11:18:41', 'Zakat', 'This is case desc', 'Salman agha', 'agha asfandyar', '4220114810127', '03347360763', 'aghasalmankhan95@gmail.com', 'Reimbursed', 'This is final', 60000, '500000', 'Gulistan-e-johar', 0, '', '', '', 'Karachi', ''),
+(7, 'Employee', 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 0, 4, 4, 1, 1, 'Yes', 'No', 'No', 'Eligible', 0, 0, '', 'Yes', 'sadas', 'asdsd', 'asdasd', '', '', 'testing', 'testing', '2023-02-20 09:47:58', 'Zakat', 'asd', 'Saad', 'Rafiq', '4220114810127', '03347360763', 'muhammad.saad@tajcorporation.com', 'New', '', 0, '5000', 'asd', 0, '', '', '', 'Karachi', ''),
+(8, 'Employee', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 'Yes', 'No', 'No', 'Eligible', 50000, 40000, 'I checked on this, this is a valid case', 'Yes', 'Salman', 'Zubair', 'Yes', 'Intermediate', 'Intermediate', 'Training for 6 month', 'NO', '2023-02-22 06:45:55', 'Zakat', '', 'Naveed', 'Ansar', '', '03347360763', 'naveed@gmail.com', 'Submitted', '', 0, '', '', 0, '', 'Others', '', '', ''),
+(9, 'Employee', 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 'Yes', 'No', 'No', 'Eligible', 0, 0, 'This is testing', 'No', '', 'salman', 'yes', 'Intermediate', 'Intermediate', 'yes', 'test', '2023-02-22 11:46:10', 'Zakat', 'This is feb case', 'Salman Agha', 'Agha Asfandyar Khan', '4220114810127', '03347360763', '1salman@gmail.com', 'Approved', 'This is panel remarks', 50000, '500000', 'Rabia City', 0, 'This is testing', 'Others', 'testing', 'Hyderabad', ''),
+(10, 'Employed', 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 5, 5, 5, 5, 'Yes', 'Yes', 'Yes', 'Not Eligib', 90000, 60000, 'I checked this and verified', 'Yes', 'khalid', 'asdad', 'asdasd', 'Expert', 'Expert', 'Yes', 'These are other remarks', '2023-02-22 12:25:19', 'Charity', 'Testing with Sir Faryad', 'Flat No. c-7/34, Rabia City, Gulistan-e-johar, block # 18, k', 'Agha ', '4220114810127', '03347360763', '2Salman@gmail.co', 'Reimbursed', 'These are final remarks of panel', 50000, '500000', 'Karachi', 0, '', '', '', 'Karachi', ''),
+(11, 'UnEmployed', 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 2, 1, 1, 1, 1, 11, 1, 0, 1, 1, 11, 0, 11, 30, 1, 1, 1, 1, 1, 5, 5, 1, 1, 'Yes', 'Yes', 'No', 'Not Eligible', 90000, 50000, 'This is field officer remarks', 'No', '', 'asd', 'asd', 'Intermediate', 'Intermediate', 'asd', 'asd', '2023-02-23 11:52:59', 'Charity', 'sdfsdf', '1', '1', '1', '1', '1', 'Submitted', '', 0, '1', '1', 0, '', '', '', 'Karachi', ''),
+(12, 'Employed', 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Yes', 'Yes', 'No', 'Not Eligible', 60000, 40000, 'This is field officer remarks', 'Yes', 'khan', 'khan', 'will', 'Expert', 'Expert', 'Yes', 'This', '2023-02-23 13:01:13', 'Charity', 'this si case desc', 'khan', 'agha khan', '4220114810127', '03347360763', 'khan@gmail.com', 'Reimbursed', 'this is final', 30000, '500000', 'malir', 0, '', '', '', 'Karachi', '');
 
 -- --------------------------------------------------------
 
@@ -301,7 +359,11 @@ CREATE TABLE `tblstaff` (
 INSERT INTO `tblstaff` (`staffid`, `username`, `email`, `password`, `role`, `status`) VALUES
 (1, 'Salman Agha', 'aghasalmankhan95@gmail.com', 'agha', 'Field Officer', 'Active'),
 (2, 'Panel', 'panel@gmail.com', 'agha', 'Panel', 'Active'),
-(3, 'Finance', 'Finance@gmail.com', 'agha', 'Finance', 'Active');
+(3, 'Finance', 'Finance@gmail.com', 'agha', 'Finance', 'Active'),
+(4, 'Aamir Ejaz', 'aamir.ejaz@tajgasoline.com', 'Taj@1234', 'Individual Authority', 'Active'),
+(5, 'Shoaib Shaikh', 'shoaib.shaikh@tajgasoline.com', 'Taj@1234', 'Individual Authority', 'Active'),
+(6, 'kashif lawai', 'kashif.lawai@tajgasoline.com', 'Taj@1234', 'Individual Authority', 'Active'),
+(7, 'Aslam Shaikh', 'muhammad.aslam@tajcorporation.com', 'Taj@1234', 'Individual Authority', 'Active');
 
 --
 -- Indexes for dumped tables
@@ -312,6 +374,12 @@ INSERT INTO `tblstaff` (`staffid`, `username`, `email`, `password`, `role`, `sta
 --
 ALTER TABLE `checking`
   ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `remarks`
+--
+ALTER TABLE `remarks`
+  ADD PRIMARY KEY (`remarksid`);
 
 --
 -- Indexes for table `tblcase`
@@ -345,7 +413,13 @@ ALTER TABLE `tblstaff`
 -- AUTO_INCREMENT for table `checking`
 --
 ALTER TABLE `checking`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+
+--
+-- AUTO_INCREMENT for table `remarks`
+--
+ALTER TABLE `remarks`
+  MODIFY `remarksid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `tblcase`
@@ -357,19 +431,19 @@ ALTER TABLE `tblcase`
 -- AUTO_INCREMENT for table `tblfinance`
 --
 ALTER TABLE `tblfinance`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `tblmainform`
 --
 ALTER TABLE `tblmainform`
-  MODIFY `caseid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `caseid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `tblstaff`
 --
 ALTER TABLE `tblstaff`
-  MODIFY `staffid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `staffid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
